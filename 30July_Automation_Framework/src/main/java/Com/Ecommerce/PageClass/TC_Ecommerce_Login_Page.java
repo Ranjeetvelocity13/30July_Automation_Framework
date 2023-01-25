@@ -22,6 +22,8 @@ public class TC_Ecommerce_Login_Page extends Ecommerce_BaseClass{
 	@FindBy(xpath = "//a[contains(text(),'Log out')]")
 	public WebElement Logout;
 	
+	@FindBy(xpath = "//a[contains(text(),'Log out')]")
+	public WebElement Log;
 	
 	//3	
 	public void SetUsername(String Uname) {		
