@@ -36,7 +36,7 @@ public class Ecommerce_BaseClass {
 	@Parameters("Browser")
 	@BeforeMethod 
 	public void initialization(String Browsernames) {
-		
+		System.out.println("Hello");
 		logger = logger.getLogger("30JulyEcommerce");
 		PropertyConfigurator.configure("Log4j.properties");
 
